@@ -1,0 +1,13 @@
+Meeting - 2 on (04/01/2021) 
+
+Attendees:
+Supervisor : Prof. Dr. Elif Bilge Kavun
+Student : Reshmi Suragani
+
+To Discuss:
+
+* implemntation of DRAM PUF on raspberry pi
+     * installed linux enviroment
+     * installed required libraries for raspberry pi
+     * installed GCC arm Embedded tool chain
+ * Next steps in Thesis
