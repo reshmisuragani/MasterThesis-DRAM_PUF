@@ -1,0 +1,9 @@
+Meeting - 1 on (10/12/2020) at 3:30 pm
+
+Attendees:
+Professor : Prof. Dr. Elif Bilge Kavun
+Student :  Reshmi Suragani
+Status Report:
+* Discussed on which hardware to be used for DRAM PUF (either laptop DRAM or raspberry pi DRAM)
+* Discussion on PyPUF implementation for DRAM PUF.
+*  Machine learning attack implementation
