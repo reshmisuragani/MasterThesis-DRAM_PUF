@@ -1,4 +1,6 @@
 # MasterThesis-DRAM_PUF
 This code is modified for Raspberry Pi to access DRAM as PUF and covert channel
 Copyright (C) 2019
-Authors: <>
+Authors: Shuai Chen, Wenjie Xiong, Yehan Xu, Bing Li
+
+Link for the code :https://caslab.csl.yale.edu/code/popchannels/
