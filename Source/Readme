@@ -1,12 +1,13 @@
-The main code for generating DRAM PUF is stored in: 
+# Procedure
+1.The main code for generating DRAM PUF is stored in: 
 
-   ```
+   ```shell
    rpi-open-firmware-master/getpuf
    ```
 
    And the code for Mailbox communication is stored in:
 
-   ```
+   ```shell
    rpi-open-firmware-master/arm_monitor.c
    rpi-open-firmware-master/trap.c
    ```
