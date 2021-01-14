@@ -27,4 +27,4 @@ Extract the toolchain, and add it to the environment variable:
 ```shell
 sudo gedit /etc/environment
 # add 'gcc-linaro-4.9-2016.02-x86_64_arm-linux-gnueabihf/bin:' to the PATH
-```shell
+```
