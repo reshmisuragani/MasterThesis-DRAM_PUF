@@ -55,4 +55,4 @@ The Baud Rate is at 115200<br>
 └── start_x.elf<br>
 <br>
 You can find most of these files in the original Raspbian image.<br>
-Just be sure to rename the corresponding *.dtb file to rpi.dtb.
+Just be sure to rename the corresponding *.dtb file to rpi.dtb
