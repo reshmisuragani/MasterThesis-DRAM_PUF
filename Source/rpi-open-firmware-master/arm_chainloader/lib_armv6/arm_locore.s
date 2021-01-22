@@ -1,2 +1,0 @@
-.text
-.align 2
