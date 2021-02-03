@@ -57,7 +57,7 @@ The Baud Rate is at 115200<br>
 You can find most of these files in the original Raspbian image.<br>
 Just be sure to rename the corresponding *.dtb file to rpi.dtb
 
-## 4. Input parameters to get DRAM PUF
+## Input parameters to get DRAM PUF
 
 1. Insert the SD Card into the Raspberry Pi B+ and boot it. You can connect the Rpi to your computer via serial cable. Use a terminal software (e.g. minicom) to transfer parameters or receive data.
 
