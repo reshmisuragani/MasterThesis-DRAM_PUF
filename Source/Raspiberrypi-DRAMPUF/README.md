@@ -57,6 +57,11 @@ The Baud Rate is at 115200<br>
 You can find most of these files in the original Raspbian image.<br>
 Just be sure to rename the corresponding *.dtb file to rpi.dtb
 
+## Communication
+
+Use GPIO Pins 14 and 15 for communication via PuTTy or minicom or any other serial communication software.<br>
+The Baud Rate is at 115200<br>
+
 ## Input parameters to get DRAM PUF
 
 1. Insert the SD Card into the Raspberry Pi B+ and boot it. You can connect the Rpi to your computer via serial cable. Use a terminal software (e.g. minicom) to transfer parameters or receive data.
