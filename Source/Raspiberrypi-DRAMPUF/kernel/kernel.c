@@ -44,15 +44,9 @@ void kernel_main(uint32_t r0, uint32_t r1, uint32_t atags)
 
         delay_s(1);  
 
-        uart_puts("Choose mode:\r\n 0: test all address(bit) \r\n 1: test all address(cell) \r\n 2: test all address(bitflip summary) \r\n 3: Extract at Interval \r\n 4: Custom set test:");
+        uart_puts("Choose mode:\r\n 0: test all address(bit) \r\n 1: test all address(cell) \r\n 2: test all address(bitflip summary) \r\n 3: Extract at Interval:");
         int m=getmode();
-        int n=m;
-        if (m == 4) {
-            n = 1;
-        } else if (m == 5) {
-            n = 4;
-        }
-        mailbox_write(n);
+        mailbox_write(m);
         delay_s(1);
         
         switch (m)
@@ -65,9 +59,7 @@ void kernel_main(uint32_t r0, uint32_t r1, uint32_t atags)
                       break;
             case   3: TestAtInterval();
                       break;
-            case   4: TestCustom();
-                      break;
-            case   5: mailbox_write(0xabcdabcd);
+            case   4: mailbox_write(0xabcdabcd);
                       delay_s(60);
                       break;
             default : TestPuf();
