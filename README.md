@@ -28,3 +28,14 @@ Extract the toolchain, and add it to the environment variable:
 sudo gedit /etc/environment
 # add 'gcc-linaro-4.9-2016.02-x86_64_arm-linux-gnueabihf/bin:' to the PATH
 ```
+Extract Install vc4-toolchain to build the firmware, you can download the source code from:
+
+   ```
+   https://github.com/itszor/vc4-toolchain
+   ```
+
+   Compile it and add it to the environment variable:
+
+   ```shell
+   sudo gedit /etc/environment
+   # add 'vc4-toolchain/prefix/bin:' to the PATH
