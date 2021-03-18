@@ -1,0 +1,22 @@
+Meeting - 1 on (23/02/2021) at 4:00 am
+
+Attendees:
+Supervisors :  
+
+Prof. Dr. Elif Bilge Kavun
+Nikolas
+
+Student :  Reshmi Suragani
+
+Status Report:
+• need to start on  Machine learning for PUF Error correction code on both weak PUF/ Strong PUF
+
+• For weak PUF SRAM PUF dataset will be used 
+link : https://ieee-dataport.org/keywords/sram-puf  
+(This directory containss 20 MSP430FR5969's SRAM DUMP data (binary files) at -15, 0, 25, 40 and 80 °C.
+                                                        Each dump repeated for 100 times under the same condition )
+link : https://gitlab.lrz.de/tueisec/PQAS/-/tree/master/matlab/datasets (this dataset was published by TUM university on 143 microcontrollers each device with 100 samples)
+
+• For strong PUF - DRAM 
+   we need to request Belfest university for more responses of Laptop DRAM PUF
+
