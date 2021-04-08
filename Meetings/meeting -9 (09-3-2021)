@@ -18,5 +18,5 @@ link : https://ieee-dataport.org/keywords/sram-puf
 link : https://gitlab.lrz.de/tueisec/PQAS/-/tree/master/matlab/datasets (this dataset was published by TUM university on 143 microcontrollers each device with 100 samples)
 
 • For strong PUF - DRAM 
-   we need to request Belfest university for more responses of Laptop DRAM PUF
+   we need to request Belfest university for more responses of Laptop DRAM PUF.
 
