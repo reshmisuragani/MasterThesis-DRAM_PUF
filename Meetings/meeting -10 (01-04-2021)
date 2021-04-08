@@ -1,0 +1,14 @@
+Meeting - 11 on (01/04/2021) at 12:30 pm
+
+Attendees:
+
+Prof. Dr. Elif Bilge Kavun
+
+Student :  Reshmi Suragani
+
+Status Report:
+• Need to fix error with while converting SRAM responses to images
+• Need to fix Virtual Machine
+• add gaussian noise to data while training the model
+• make machine learning model better , learning time
+• Error correction code - model should be able to predict the responses even if the somepart of the data is lost during transmission.
