@@ -31,11 +31,12 @@ sudo gedit /etc/environment
 Extract Install vc4-toolchain to build the firmware, you can download the source code from:
 
    ```
-   https://github.com/itszor/vc4-toolchain
+    git clone --recursive https://github.com/itszor/vc4-toolchain.git
    ```
-
-   Compile it and add it to the environment variable:
-
+  Then build the compiler with:
+   ```
+ ./build-all.sh 2>&1 | tee build.log
+   ```
    ```shell
    sudo gedit /etc/environment
    # add 'vc4-toolchain/prefix/bin:' to the PATH
